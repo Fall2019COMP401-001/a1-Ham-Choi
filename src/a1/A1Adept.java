@@ -29,7 +29,7 @@ public class A1Adept {
 				int quantity = scan.nextInt();
 				String product = scan.next();
 				for (int b = 0; b < item.length; b++) {
-					if ( item[b].equals(product)) {
+					if (item[b].equals(product)) {
 						total[i] = total[i] + quantity * item_cost[b];
 					}
 				}

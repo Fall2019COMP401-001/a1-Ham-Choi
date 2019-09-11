@@ -22,5 +22,6 @@ public class A1Novice {
 					": " + String.format("%.2f", total));
 		}
 		scan.close();
+		//done
 	}
 }
